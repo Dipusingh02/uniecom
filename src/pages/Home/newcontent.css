@@ -1,0 +1,32 @@
+
+  .uniblu__whatunibluhws {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .uniblu__whatunibluhws-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+  }
+  .uniblu_wh_bgheros{
+    /* background-image: url(./assets/hero-bg-10.png); */
+    background-image: url(../../assets/bgimgj.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    position: relative; 
+   
+   
+  }
+  .uniblu_wh_herosblur{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  

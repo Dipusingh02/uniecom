@@ -1,0 +1,39 @@
+export{default as AboutUs} from './aboutus/AboutUs';
+export{default as AboutUsHeader} from './aboutus/AboutUsHeader'
+export{default as AboutContainer1} from './aboutus/AboutContainer1'
+export{default as AboutContainer2} from './aboutus/AboutContainer2'
+export{default as AboutContainer3} from './aboutus/AboutContainer3'
+export{default as AboutContainer4} from './aboutus/AboutContainer4'
+export{default as Home} from './Home/Home';
+export{default as AffMarketing} from './affMarketing/AffMarketing';
+export{default as ContactUs} from './contactus/ContactUs';
+export{default as Seo} from './seo/Seo';
+export{default as DataDDMaking} from './data/DataDDMaking';
+export{default as DigitalMarketing} from './digitalmarketing/DigitalMarketing';
+export{default as WebDev} from './webdev/WebDev';
+export{default as Career} from './career/Career';
+export{default as WebDevServices} from './webdev/WebDevServices';
+export{default as WebDevFeatures} from './webdev/WebDevFeatures';
+export{default as WebDevPossibility} from './webdev/WebDevPossibility';
+export{default as WebDevTS} from './webdev/WebDevTS';
+export{default as WebDevHeader} from './webdev/WebDevHeader';
+export{default as SeoHeader} from './seo/SeoHeader';
+export{default as SeoFeatures} from './seo/SeoFeatures';
+export{default as SeoPossibility } from './seo/SeoPossibility';
+export{default as SeoServices } from './seo/SeoServices';
+export{default as SeoConclude } from './seo/SeoConclude';
+export{default as AMHeader} from './affMarketing/AMHeader';
+export{default as AMPossibility} from './affMarketing/AMPossibility';
+export{default as AMServices} from './affMarketing/AMServices';
+export{default as AMFeatures} from './affMarketing/AMFeatures';
+export{default as DMHeader} from './digitalmarketing/DMHeader';
+export{default as DMPossibility} from './digitalmarketing/DMPossibility';
+export{default as DMServices} from './digitalmarketing/DMServices';
+export{default as DMFeatures} from './digitalmarketing/DMFeatures';
+export{default as DDHeader} from './data/DDHeader';
+export{default as DDPosibility} from './data/DDPosibility';
+export{default as DDServices} from './data/DDServices';
+export{default as DDServices2} from './data/DDServices2';
+export{default as DDFeatures} from './data/DDFeatures';
+export{default as Blog} from './blog/Blog';
+export{default as Form} from './contactus/form';

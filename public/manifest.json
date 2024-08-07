@@ -1,0 +1,26 @@
+{
+  "short_name": "Unibluweb",
+  "name": "Uniblu Web - Digital Growth Experts",
+  "description": "Uniblu offers a holistic approach to digital growth and online presence, making it a potentially valuable partner for businesses looking to establish or enhance their digital footprint. Our services suggest a deep understanding of the digital ecosystem and how to navigate it successfully to drive business growth.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

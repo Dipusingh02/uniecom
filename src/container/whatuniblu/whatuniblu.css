@@ -1,0 +1,129 @@
+.uniblu__whatunibluhw {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-footer);
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.uniblu__whatunibluhw-feature {
+    display: flex;
+}
+.uniblu_wh_bghero{
+    background-image: url(../../assets/hero-bg-10.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    position: relative; 
+   
+   
+}
+.uniblu_wh_heroblur{
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.uniblu__whatunibluhw-feature .uniblu__features-container__feature {
+    margin: 0;
+}
+
+
+.uniblu__whatunibluhw-feature .uniblu__features-container_feature-text {
+    max-width: 700px;
+}
+
+.uniblu__whatunibluhw-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.uniblu__whatunibluhw-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    width: 100%;
+}
+
+.uniblu__whatunibluhw-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.uniblu__whatunibluhw-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+
+.uniblu__whatunibluhw-container .uniblu__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+
+.uniblu__whatunibluhw-container .uniblu__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .uniblu__whatunibluhw-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .uniblu__whatunibluhw-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .uniblu__whatunibluhw-feature .uniblu__features-container__feature {
+        flex-direction: column;
+    }
+
+    
+    .uniblu__whatunibluhw-feature .uniblu__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .uniblu__whatunibluhw-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+    .uniblu__whatunibluhw-container .uniblu__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

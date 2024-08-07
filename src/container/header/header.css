@@ -1,0 +1,161 @@
+.uniblu__headerhh{
+    display: flex;
+}
+.uniblu__headerhh-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+  
+.uniblu__headerhh-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 75px;
+    letter-spacing:  -0.04em;
+}
+
+.uniblu__headerhh-content p{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.uniblu__headerhh-content__input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.uniblu__headerhh-content__input input{
+    flex: 2;
+    width: 100px;
+    min-height: 50px;
+    font-family: var(--font-family);
+    background: var(--color-footer);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 17px;
+    line-height: 27px;
+    border:  2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    color: #3D6184;
+}
+
+.uniblu__headerhh-content__input button{
+    flex: 0.6;
+    width: 200%;
+    min-height: 50px;
+    background: #FF4820;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+}
+.uniblu__headerhh-content__input link{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.uniblu__headerhh-content__people{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.uniblu__headerhh-content__people img{
+    width: 181.79px;
+    height: 38px;
+}
+
+.uniblu__headerhh-content__people p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 38px;
+    color: #ffffff;
+    margin: 0 0 0 1rem;
+    text-align: center;
+}
+
+.uniblu__headerhh-image{
+    margin-left: 1rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uniblu__headerhh-image img{
+    width: 130%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px){
+    .uniblu__headerhh{
+        flex-direction: column;
+    }
+    .uniblu__headerhh-content {
+        margin: 0 0 3rem;
+    }
+}
+@media screen and (max-width: 650px){
+    .uniblu__headerhh h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .uniblu__headerhh p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .uniblu__headerhh-content__people {
+        flex-direction: column;
+    }
+    .uniblu__headerhh-content__people p {
+        margin: 0;
+    }
+    .uniblu__headerhh-content__input input , 
+    .uniblu__headerhh-content__input button{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px){
+   .uniblu__headerhh h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .uniblu__headerhh p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .uniblu__headerhh-content__input input , 
+    .uniblu__headerhh-content__input button{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+

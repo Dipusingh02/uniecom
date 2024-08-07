@@ -1,0 +1,95 @@
+.uniblu_blog {
+    display: flex;
+    flex-direction: column;    
+}
+
+.uniblu_blog-heading {
+    width: 100%;
+    text-align: left;
+
+    margin-bottom: 5rem;
+}
+.uniblu_wh_bghero{
+    background-image: url(../../assets/hero-bg-10.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    position: relative; 
+   
+   
+}
+.uniblu_wh_heroblur{
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.uniblu_blog-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.uniblu_blog-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.uniblu_blog-container_groupA {
+    flex: 0.75;
+    margin-right: 2rem;
+}
+
+.uniblu_blog-container_groupB {
+    flex: 1;
+
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+    .uniblu_blog-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .uniblu_blog-container_groupA {
+        margin: 2rem 0;
+    }
+
+    .uniblu_blog-container_groupA .uniblu_blog-container_article  {
+       width: 48%;
+    }
+
+    .uniblu_blog-container_groupA .uniblu_blog-container_article-image {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .uniblu_blog-container_groupB {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .uniblu_blog-container_groupA .uniblu_blog-container_article  {
+       width: 100%;
+    }
+
+    .uniblu_blog-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .uniblu_blog-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+}
